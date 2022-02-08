@@ -1,5 +1,5 @@
 /*
-grammar£º
+grammarï¼š
 
 //namespace, allow 0 or more
 (namespace {name_space};)
@@ -29,154 +29,154 @@ Interface {interface_name}{
 	};
 };
 
-Ô¼¶¨£º
-1.()±íÊ¾ÆäÖĞµÄÓï·¨tokenÊÇ¿ÉÑ¡µÄ£¬¿ÉÒÔ³öÏÖ0´Î»ò1´Î
-3.{}±íÊ¾±äÁ¿Ãû
-4.@±íÊ¾ÆäºóÊÇ×¢ÊÍ
-5.[]±íÊ¾Ö»ÔÊĞíÈ¡Ö¸¶¨¼¯ºÏÖĞµÄÖµ
+çº¦å®šï¼š
+1.()è¡¨ç¤ºå…¶ä¸­çš„è¯­æ³•tokenæ˜¯å¯é€‰çš„ï¼Œå¯ä»¥å‡ºç°0æ¬¡æˆ–1æ¬¡
+3.{}è¡¨ç¤ºå˜é‡å
+4.@è¡¨ç¤ºå…¶åæ˜¯æ³¨é‡Š
+5.[]è¡¨ç¤ºåªå…è®¸å–æŒ‡å®šé›†åˆä¸­çš„å€¼
 
-ÆäÖĞ£º
-0.{name_space}±íÊ¾namespace,½ÓÊÜc++¸ñÊ½µÄnamespaceÃüÃû
-1. {class_name},{interface_name},{field_name},{json_filed_name}±íÊ¾×Ô¶¨Òå½á¹¹Ìå/½Ó¿Ú/×Ö¶ÎÃû/jsonĞòÁĞ»¯ºóµÄ×Ö¶ÎÃû£¬¿ÉÒÔÊÇÈÎºÎÓĞĞ§µÄ±äÁ¿Ãû
-2.¿ÉÒÔÍ¨¹ıclass¹Ø¼ü×Ö¶¨Òå0¸ö»ò¶à¸ö×Ô¶¨Òå½á¹¹Ìå£¬±ØĞë°´ÕÕÊ¹ÓÃË³Ğò½øĞĞ¶¨Òå
-3.¿ÉÒÔÍ¨¹ıInterface¹Ø¼ü×Ö¶¨Òå1¸ö»ò¶à¸ö½Ó¿Ú£¬Ã¿¸ö½Ó¿ÚÖĞ±ØĞëÓĞÇÒ½öÓĞ1¶Ôrequest/response¶ÔÏó
-4. @±íÊ¾×¢ÊÍ£¬Ä¿Ç°Ö§³Öjsonname,description,optional,default,º¬ÒåÈçÏÂ:
-	jsonname:¸Ã×Ö¶ÎÔÚĞòÁĞ»¯ºóµÄ×Ö·û´®ÖĞµÄÃû×Ö¡£[class,Interface¿ÉÑ¡£¬filed±ØÌî]
-	description:±íÊ¾×¢ÊÍ£¬³öÏÖÔÚÉú³ÉµÄC++´úÂëÖĞ¡£[¿ÉÑ¡]
-	optional:¸Ã×Ö¶ÎÊÇ·ñ¿ÉÑ¡£¬È¡ÖµÎª"true"»ò"false"£¬Ä¬ÈÏ"false"¡£[¿ÉÑ¡]
-	default:¸Ã×Ö¶ÎµÄÄ¬ÈÏÖµ¡£[¿ÉÑ¡]
-6.[field_type] ×Ö¶ÎÀàĞÍ£¬Ä¿Ç°Ö§³Öshort, int, long, bool, unsigned, uint64_t, int64_t, double,×Ô¶¨Òå½á¹¹Ìå,ÒÔ¼°vector<T>¡£
-	ÆäÖĞT¿ÉÒÔÊÇÆäËû¼¸ÖÖÖ§³ÖµÄÊı¾İÀàĞÍ(°üÀ¨×Ô¶¨Òå½á¹¹Ìå)
-7.±¾ÎÄ¼şÖ§³Öc++¸ñÊ½µÄ×¢ÊÍ£¬µ«½âÎöÊ±Ö±½ÓºöÂÔ£¬²»»á³öÏÖÔÚÉú³ÉµÄÍ·ÎÄ¼şÖĞ
+å…¶ä¸­ï¼š
+0.{name_space}è¡¨ç¤ºnamespace,æ¥å—c++æ ¼å¼çš„namespaceå‘½å
+1. {class_name},{interface_name},{field_name},{json_filed_name}è¡¨ç¤ºè‡ªå®šä¹‰ç»“æ„ä½“/æ¥å£/å­—æ®µå/jsonåºåˆ—åŒ–åçš„å­—æ®µåï¼Œå¯ä»¥æ˜¯ä»»ä½•æœ‰æ•ˆçš„å˜é‡å
+2.å¯ä»¥é€šè¿‡classå…³é”®å­—å®šä¹‰0ä¸ªæˆ–å¤šä¸ªè‡ªå®šä¹‰ç»“æ„ä½“ï¼Œå¿…é¡»æŒ‰ç…§ä½¿ç”¨é¡ºåºè¿›è¡Œå®šä¹‰
+3.å¯ä»¥é€šè¿‡Interfaceå…³é”®å­—å®šä¹‰1ä¸ªæˆ–å¤šä¸ªæ¥å£ï¼Œæ¯ä¸ªæ¥å£ä¸­å¿…é¡»æœ‰ä¸”ä»…æœ‰1å¯¹request/responseå¯¹è±¡
+4. @è¡¨ç¤ºæ³¨é‡Šï¼Œç›®å‰æ”¯æŒjsonname,description,optional,default,å«ä¹‰å¦‚ä¸‹:
+	jsonname:è¯¥å­—æ®µåœ¨åºåˆ—åŒ–åçš„å­—ç¬¦ä¸²ä¸­çš„åå­—ã€‚[class,Interfaceå¯é€‰ï¼Œfiledå¿…å¡«]
+	description:è¡¨ç¤ºæ³¨é‡Šï¼Œå‡ºç°åœ¨ç”Ÿæˆçš„C++ä»£ç ä¸­ã€‚[å¯é€‰]
+	optional:è¯¥å­—æ®µæ˜¯å¦å¯é€‰ï¼Œå–å€¼ä¸º"true"æˆ–"false"ï¼Œé»˜è®¤"false"ã€‚[å¯é€‰]
+	default:è¯¥å­—æ®µçš„é»˜è®¤å€¼ã€‚[å¯é€‰]
+6.[field_type] å­—æ®µç±»å‹ï¼Œç›®å‰æ”¯æŒshort, int, long, bool, unsigned, uint64_t, int64_t, double,è‡ªå®šä¹‰ç»“æ„ä½“,ä»¥åŠvector<T>ã€‚
+	å…¶ä¸­Tå¯ä»¥æ˜¯å…¶ä»–å‡ ç§æ”¯æŒçš„æ•°æ®ç±»å‹(åŒ…æ‹¬è‡ªå®šä¹‰ç»“æ„ä½“)
+7.æœ¬æ–‡ä»¶æ”¯æŒc++æ ¼å¼çš„æ³¨é‡Šï¼Œä½†è§£ææ—¶ç›´æ¥å¿½ç•¥ï¼Œä¸ä¼šå‡ºç°åœ¨ç”Ÿæˆçš„å¤´æ–‡ä»¶ä¸­
 
-Ê¾ÀıÈçÏÂ£º
+ç¤ºä¾‹å¦‚ä¸‹ï¼š
 */
 
 namespace jsf;
 
-@description="µØÖ·½á¹¹Ìå"
-class Address{	//×Ô¶¨Òå½á¹¹Ìå
-	@jsonname="provinceNo", description="µØÖ·±àºÅ",default="1011900"
+@description="åœ°å€ç»“æ„ä½“"
+class Address{	//è‡ªå®šä¹‰ç»“æ„ä½“
+	@jsonname="provinceNo", description="åœ°å€ç¼–å·",default="1011900"
     int provinceNo;	
 	
-	@jsonname="provinceStr", description="Ê¡",default="ÉÏº£"
+	@jsonname="provinceStr", description="çœ",default="ä¸Šæµ·"
     string province;	
 	
-	@jsonname="city", description="ÊĞ",default="ÉÏº£"
+	@jsonname="city", description="å¸‚",default="ä¸Šæµ·"
     string city;	
 	
-	@jsonname="town", description="ÇøÏØÕò",default="Ğì»ãÇø"
+	@jsonname="town", description="åŒºå¿é•‡",default="å¾æ±‡åŒº"
     string town;
 	
-	@jsonname="address", description="ÏêÏ¸µØÖ·",default="¹ÅÃÀÂ·1515Åª"
+	@jsonname="address", description="è¯¦ç»†åœ°å€",default="å¤ç¾è·¯1515å¼„"
     string address;
 };
 
-@description="·¢Æ±½á¹¹Ìå"
+@description="å‘ç¥¨ç»“æ„ä½“"
 class InvoiceTicket{
-	@jsonname="invoiceType", description="·¢Æ±ÀàĞÍ",default="28"
+	@jsonname="invoiceType", description="å‘ç¥¨ç±»å‹",default="28"
     string invoiceType;
 	
-	@jsonname="invoiceCode", description="·¢Æ±´úÂë",default="ZP1000034883232"
+	@jsonname="invoiceCode", description="å‘ç¥¨ä»£ç ",default="ZP1000034883232"
     string invoiceCode;
 	
-	@jsonname="invoiceNo", description="·¢Æ±ºÅÂë"
+	@jsonname="invoiceNo", description="å‘ç¥¨å·ç "
     string invoiceNo;
 	
-	@jsonname="amount", description="¿ªÆ±½ğ¶î"
+	@jsonname="amount", description="å¼€ç¥¨é‡‘é¢"
     string amount;
 	
-	@jsonname="invoiceTime", description="¿ªÆ±Ê±¼ä"
+	@jsonname="invoiceTime", description="å¼€ç¥¨æ—¶é—´"
     string invoiceTime;
 	
-	@jsonname="state", description="×´Ì¬"
+	@jsonname="state", description="çŠ¶æ€"
     string state;
 	
-	@jsonname="bussinessId", description="¶©µ¥ºÅ"
+	@jsonname="bussinessId", description="è®¢å•å·"
     string bussinessId;
 	
-	@jsonname="operatorCode", description="¿ªÆ±ÈË"
+	@jsonname="operatorCode", description="å¼€ç¥¨äºº"
     string operatorCode;
 	
-	@jsonname="operatorName", description="¿ªÆ±ÈËÃû³Æ"
+	@jsonname="operatorName", description="å¼€ç¥¨äººåç§°"
     string operatorName;
 	
-	@jsonname="invoiceAddress", description="·¢Æ±µØÖ·"
+	@jsonname="invoiceAddress", description="å‘ç¥¨åœ°å€"
     Address address;
 	
-	@jsonname="optionalAddress", description="±¸Ñ¡·¢Æ±µØÖ·"
+	@jsonname="optionalAddress", description="å¤‡é€‰å‘ç¥¨åœ°å€"
     vector<Address> optionalAddress;
 };
 
 
-@description="ÉêÇë¿ªÆ±½Ó¿Ú  balabala...."			//½Ó¿ÚËµÃ÷
+@description="ç”³è¯·å¼€ç¥¨æ¥å£  balabala...."			//æ¥å£è¯´æ˜
 Interface AddInvoice{
 	Request{
-		@jsonname="sourceId", description="À´Ô´",default="100"
+		@jsonname="sourceId", description="æ¥æº",default="100"
 		int source;
 
-		@jsonname="orgId", description="¿ªÆ±»ú¹¹",default="10009"
+		@jsonname="orgId", description="å¼€ç¥¨æœºæ„",default="10009"
 		int organizationId;
 
-		@jsonname="ivcType",description="¿ªÆ±ÀàĞÍ",default="800000"
+		@jsonname="ivcType",description="å¼€ç¥¨ç±»å‹",default="800000"
 		int invoiceType;
 
-		@jsonname="reqNo", description="ÉêÇëµ¥ºÅ"
+		@jsonname="reqNo", description="ç”³è¯·å•å·"
 		string requestNo;
 
-		@jsonname="payerNo", description="¸¶¿î·½Ê¶±ğºÅ"
+		@jsonname="payerNo", description="ä»˜æ¬¾æ–¹è¯†åˆ«å·"
 		string payNo;
 
-		@jsonname="receiverNo", description="ÊÕ¿î·½Ê¶±ğºÅ", optional="true" //¿ÉÑ¡×Ö¶Î
+		@jsonname="receiverNo", description="æ”¶æ¬¾æ–¹è¯†åˆ«å·", optional="true" //å¯é€‰å­—æ®µ
 		string receiverNo ;
 
-		@jsonname="businessIds", description="¶©µ¥ÁĞ±í"
+		@jsonname="businessIds", description="è®¢å•åˆ—è¡¨"
 		vector<string> bussinessIds;
 		
-		@jsonname="invoiceTicket", description="·¢Æ±"
+		@jsonname="invoiceTicket", description="å‘ç¥¨"
 		InvoiceTicket invoiceTicket;
 	};
 
 	Response{
-		@jsonname="code", description="ÒµÎñ·µ»Ø´úÂë",default="yx"
+		@jsonname="code", description="ä¸šåŠ¡è¿”å›ä»£ç ",default="yx"
 		string code;
 
-		@jsonname="msg", description="ÒµÎñ·µ»ØĞÅÏ¢"
+		@jsonname="msg", description="ä¸šåŠ¡è¿”å›ä¿¡æ¯"
 		string message;
 
-		@jsonname="reqNo", description="ÉêÇëµ¥ºÅ"
+		@jsonname="reqNo", description="ç”³è¯·å•å·"
 		string requestNo;
 
-		@jsonname="businessIds", description="¶©µ¥ÁĞ±í", optional="true"	//¿ÉÑ¡×Ö¶Î
+		@jsonname="businessIds", description="è®¢å•åˆ—è¡¨", optional="true"	//å¯é€‰å­—æ®µ
 		vector<string> bussinessIds ;
 		
-		@jsonname="invoiceTicket", description="·¢Æ±"
+		@jsonname="invoiceTicket", description="å‘ç¥¨"
 		InvoiceTicket invoiceTicket;
 	};
 };
 
 
-@description="ĞÂÔöÉÌÆ·"			//½Ó¿ÚËµÃ÷
+@description="æ–°å¢å•†å“"			//æ¥å£è¯´æ˜
 Interface AddWare{
 	Request(Address){
-		@jsonname="sourceId", description="À´Ô´",default="100"
+		@jsonname="sourceId", description="æ¥æº",default="100"
 		int source;
 
-		@jsonname="receiverNo", description="ÊÕ¿î·½Ê¶±ğºÅ", optional="true" //¿ÉÑ¡×Ö¶Î
+		@jsonname="receiverNo", description="æ”¶æ¬¾æ–¹è¯†åˆ«å·", optional="true" //å¯é€‰å­—æ®µ
 		string receiverNo ;
 
-		@jsonname="businessIds", description="¶©µ¥ÁĞ±í"
+		@jsonname="businessIds", description="è®¢å•åˆ—è¡¨"
 		vector<string> bussinessIds;
 	};
 
 	Response(Address){
-		@jsonname="code", description="ÒµÎñ·µ»Ø´úÂë",default="yy"
+		@jsonname="code", description="ä¸šåŠ¡è¿”å›ä»£ç ",default="yy"
 		string code;
 
-		@jsonname="msg", description="ÒµÎñ·µ»ØĞÅÏ¢"
+		@jsonname="msg", description="ä¸šåŠ¡è¿”å›ä¿¡æ¯"
 		string message;
 
-		@jsonname="reqNo", description="ÉêÇëµ¥ºÅ"
+		@jsonname="reqNo", description="ç”³è¯·å•å·"
 		string requestNo;
 	};
 };
